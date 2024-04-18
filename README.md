@@ -54,7 +54,25 @@ I have learnt to structure and styled a website using html and css. I have learn
 To see how you can add code snippets, see below:
 
 ```html
+<div class="attribution">
+  Challenge by
+  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+    >Frontend Mentor</a
+  >. Coded by <a href="#">Augustine Stephen Abah</a>.
+</div>
 <h1>QR Code Component</h1>
+<div class="container">
+  <div class="qr-image">
+    <img src="images/image-qr-code.png" alt="" />
+  </div>
+  <div class="qr-content">
+    <h2>Improve your frontend skills by bulding projects.</h2>
+    <p>
+      Scan the QR code to visit Frontend Mentor and take your coding skills to
+      the next level
+    </p>
+  </div>
+</div>
 ```
 
 ```css
