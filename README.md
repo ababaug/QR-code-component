@@ -33,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ababaug/QR-code-component)
-- Live Site URL: [Add live site URL here](https://ababaug.github.io/QR-code-component/)
+- Solution URL: [(https://github.com/ababaug/QR-code-component)]
+- Live Site URL: [https://ababaug.github.io/QR-code-component/]
 
 ## My process
 
