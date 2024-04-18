@@ -33,8 +33,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/ababaug/QR-code-component)
+- Live Site URL: [Add live site URL here](https://ababaug.github.io/QR-code-component/)
 
 ## My process
 
@@ -43,34 +43,85 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I have learnt to structure and styled a website using html and css. I have learnt to use flexbox for align the contents on a web page.
 
 To see how you can add code snippets, see below:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<h1>QR Code Component</h1>
 ```
 
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+h1 {
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 497px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 10px #12041407;
+}
+
+.qr-image {
+  width: 288px;
+  height: 288px;
+}
+
+.qr-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.qr-content {
+  width: 288px;
+  padding: 16px;
+  text-align: center;
+}
+
+.qr-content h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: hsl(218, 44%, 22%);
+}
+
+.qr-content p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+```
+
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
