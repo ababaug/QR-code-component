@@ -54,25 +54,24 @@ I have learnt to structure and styled a website using html and css. I have learn
 To see how you can add code snippets, see below:
 
 ```html
-<div class="attribution">
-  Challenge by
-  <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-    >Frontend Mentor</a
-  >. Coded by <a href="#">Augustine Stephen Abah</a>.
-</div>
-<h1>QR Code Component</h1>
-<div class="container">
-  <div class="qr-image">
-    <img src="images/image-qr-code.png" alt="" />
-  </div>
-  <div class="qr-content">
-    <h2>Improve your frontend skills by bulding projects.</h2>
-    <p>
-      Scan the QR code to visit Frontend Mentor and take your coding skills to
-      the next level
-    </p>
-  </div>
-</div>
+<body>
+  <main aria-label="Content page" class="container">
+    <div class="qr-image">
+      <img
+        aria-label="QR code that redirects to frontend mentor site"
+        src="images/image-qr-code.png"
+        alt=""
+      />
+    </div>
+    <div class="qr-content" role="contentinfo">
+      <h2>Improve your frontend skills by bulding projects.</h2>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        the next level
+      </p>
+    </div>
+  </main>
+</body>
 ```
 
 ```css
@@ -91,10 +90,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(212, 45%, 89%);
+  height: 100vh;
 }
 
-h1 {
-  margin: 5px;
+.attribution {
+  text-align: center;
 }
 
 .container {
@@ -107,6 +107,7 @@ h1 {
   background-color: white;
   border-radius: 20px;
   box-shadow: 5px 10px #12041407;
+  align-content: center;
 }
 
 .qr-image {
@@ -122,13 +123,13 @@ h1 {
 
 .qr-content {
   width: 288px;
-  padding: 16px;
+  padding: 19px;
   text-align: center;
 }
 
 .qr-content h2 {
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 24px;
   color: hsl(218, 44%, 22%);
 }
 
