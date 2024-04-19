@@ -31,6 +31,7 @@ body {
     border-radius: 20px;
     box-shadow: 5px 10px #12041407;
     align-content: center;
+    
 }
 
 .qr-image {
@@ -46,13 +47,13 @@ body {
 
 .qr-content {
     width: 288px;
-    padding: 16px;
+    padding: 19px;
     text-align: center;
 }
 
 .qr-content h2 {
     font-size: 22px;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
     color: hsl(218, 44%, 22%);
 }
 
