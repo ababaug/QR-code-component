@@ -64,7 +64,7 @@ To see how you can add code snippets, see below:
       />
     </div>
     <div class="qr-content" role="contentinfo">
-      <h2>Improve your frontend skills by bulding projects.</h2>
+      <h1>Improve your frontend skills by bulding projects.</h1>
       <p>
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
@@ -91,10 +91,6 @@ body {
   align-items: center;
   background-color: hsl(212, 45%, 89%);
   height: 100vh;
-}
-
-.attribution {
-  text-align: center;
 }
 
 .container {
@@ -127,7 +123,7 @@ body {
   text-align: center;
 }
 
-.qr-content h2 {
+.qr-content h1 {
   font-size: 22px;
   margin-bottom: 24px;
   color: hsl(218, 44%, 22%);
