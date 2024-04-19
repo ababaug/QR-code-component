@@ -13,10 +13,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(212, 45%, 89%);
+    height: 100vh;
 }
 
-h1 {
-    margin: 5px;
+.attribution {
+    text-align: center;
 }
 
 .container {
@@ -29,6 +30,7 @@ h1 {
     background-color: white;
     border-radius: 20px;
     box-shadow: 5px 10px #12041407;
+    align-content: center;
 }
 
 .qr-image {
